@@ -1,0 +1,162 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "outDir": "./out-tsc/app",
+        "types": [
+            "node"
+        ],
+         "paths": {
+            /** application **/
+            "@app/*": [
+                "app/*"
+            ],
+            "@appCommon/*": [
+                "app/common/*"
+            ],
+            "@appCore/*": [
+                "app/core/*"
+            ],
+            "@appEnv/*": [
+                "app/core/*"
+            ],
+            /** dw **/
+            "@dw/*": [
+                "dw/*"
+            ],
+            "@dwClass/*": [
+                "dw/class/*"
+            ],
+            "@dwComp/*": [
+                "dw/comp/*"
+            ],
+            "@dwCore/*": [
+                "dw/core/*"
+            ],
+            "@dwPage/*": [
+                "dw/page/*"
+            ],
+            "@dwState/*": [
+                "dw/state/*"
+            ],
+            "@dwType/*": [
+                "dw/type/*"
+            ],
+            /** environment **/
+            "@env/*": [
+                "env/*"
+            ],
+             /** bootstrap **/
+            "@kwBs/*": [
+                "kwBs/*"
+            ],
+            "@kwBsCtrl/*": [
+                "kwBs/ctrl/*"
+            ],
+            "@kwBsFcty/*": [
+                "kwBs/fcty/*"
+            ],
+            "@kwBsSrvc/*": [
+                "kwBs/srvc/*"
+            ],
+            "@kwBsStat/*": [
+                "kwBs/stat/*"
+            ],
+            "@kwBsState/*": [
+                "kwBs/state/*"
+            ],
+            "@kwBsStatus/*": [
+                "kwBs/status/*"
+            ],
+            /** Firebase **/
+            "@kwFb/*": [
+                "kwFb/*"
+            ],
+            "@kwFbClass/*": [
+                "kwFb/class/*"
+            ],
+            "@kwFbCtrl/*": [
+                "kwFb/ctrl/*"
+            ],
+            "@kwFbSrvc/*": [
+                "kwFb/srvc/*"
+            ],
+            "@kwFbState/*": [
+                "kwFb/state/*"
+            ],
+            /** kunstWerk for Angular **/
+            "@kwNg/*": [
+                "kwNg/*"
+            ],
+            "@kwNgCtrl/*": [
+                "kwNg/ctrl/*"
+            ],
+            "@kwNgCore/*": [
+                "kwNg/core/*"
+            ],
+            "@kwNgHttp/*": [
+                "kwNg/http/*"
+            ],
+            "@kwp/*": [
+                "kwNg/page/*"
+            ],
+            "@kwNgPage/*": [
+                "kwNg/page/*"
+            ],
+            "@kwNgState/*": [
+                "kwNg/state/*"
+            ],
+            "@kwNgStatus/*": [
+                "kwNg/status/*"
+            ],
+            "@kwNgType/*": [
+                "kwNg/type/*"
+            ],
+            /** kunstWerk for Angular UI**/
+            "@kwNgUi/*": [
+                "kwNgUi/*"
+            ],
+            "@kwNgUiCore/*": [
+                "kwNgUi/core/*"
+            ],
+            "@kwNgUiCtrl/*": [
+                "kwNgUi/ctrl/*"
+            ],
+            "@kwNgUiStat/*": [
+                "kwNgUi/stat/*"
+            ],
+            "@kwNgUiState/*": [
+                "kwNgUi/state/*"
+            ],
+            "@kwNgUiStatus/*": [
+                "kwNgUi/status/*"
+            ],
+            "@kwNgUiAgGrid/*": [
+                "kwNgUiAgGrid/*"
+            ],
+            /** kunstWerk for Angular Fuse**/
+            "@kwNgUiFuse/*": [
+                "kwNgUiFuse/*"
+            ],
+            "@kwNgUiFuseCmp/*": [
+                "kwNgUiFuse/cmp/*"
+            ],
+            "@kwNgUiFuseCore/*": [
+                "kwNgUiFuse/core/*"
+            ],
+            "@kwNgUiFuseCtrl/*": [
+                "kwNgUiFuse/ctrl/*"
+            ],
+            "@kwNgUiFuseState/*": [
+                "kwNgUiFuse/state/*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "src/test.ts",
+        "src/**/*.spec.ts"
+    ]
+}
