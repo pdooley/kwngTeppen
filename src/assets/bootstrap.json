@@ -15,7 +15,7 @@
   },
   "credentials": {
     "sUserName": "pjldooley@gmail.com",
-    "sPassword": "1234567890"
+    "sPassword": "abc123"
   },
   "routes": {
     "sLogin": "pages/auth/login",

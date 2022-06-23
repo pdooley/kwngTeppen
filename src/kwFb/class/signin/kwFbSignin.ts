@@ -56,7 +56,7 @@ export class kwFbSignin
             console.error("kwFbSignin::init() error creating user.");
             return false;
         }
-        //console.info("kwFbSignin::init() user is ", user);
+        console.info("kwFbSignin::init() user is ", user);
         this.user = user;
 
          const userAdd: kwFbUserAdd = new kwFbUserAdd(this.signin);
@@ -65,7 +65,7 @@ export class kwFbSignin
             console.error("kwFbSignin::init() error creating userAdd.");
             return false;
         }
-        //console.info("kwFbSignin::init() userAdd is ", userAdd);
+        console.info("kwFbSignin::init() userAdd is ", userAdd);
         this.userAdd = userAdd;
 
         const sOperation : string = this.signin[sOP];
@@ -74,7 +74,7 @@ export class kwFbSignin
             console.error("kwFbSignin::init() sOperation is invalid.");
             return false;
         }
-        //console.info("kwFbSignin::init() sOperation is ", sOperation);
+        console.info("kwFbSignin::init() sOperation is ", sOperation);
         this.sOperation = sOperation;
 
         const sToken : string = this.user.getToken();
