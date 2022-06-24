@@ -42,12 +42,12 @@ export class kwFbSigninCtrlVal implements OnInit, OnDestroy
         private srvcIn: kwFbSigninStVal,
         private srvcOut: kwBsSigninStArr )
     {
-        //console.log("kwFbSigninCtrlVal::constructor() called");
+        console.log("kwFbSigninCtrlVal::constructor() called");
     }
 
     ngOnInit(): boolean
     {
-        //console.log("kwFbSigninCtrlVal::ngOnInit() called");
+        console.log("kwFbSigninCtrlVal::ngOnInit() called");
 
         this._unsubscribeAll = new Subject();
 

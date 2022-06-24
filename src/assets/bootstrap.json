@@ -2,13 +2,13 @@
   "app": {
     "sMode": "debug",
     "sRedirect": "http://www.itkunst.com",
-    "bAutoLogin": true
+    "bAutoLogin": false
   },
   "trace": {
     "bApp": false,
     "bBs": false,
     "bLoad": false,
-    "bPubSub": true,
+    "bPubSub": false,
     "bRoutes": false,
     "bState": false,
     "bUi": false

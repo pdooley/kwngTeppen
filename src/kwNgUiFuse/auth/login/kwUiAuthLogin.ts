@@ -60,6 +60,7 @@ export class kwUiAuthLogin implements OnInit {
             if (!this.loginFormErrors.hasOwnProperty(field)) {
                 continue;
             }
+            debugger
 
             // Clear previous errors
             this.loginFormErrors[field] = {}
@@ -71,5 +72,10 @@ export class kwUiAuthLogin implements OnInit {
                 this.loginFormErrors[field] = control.errors;
             }
         }
+    }
+
+    onSubmit() {
+        debugger
+        console.log("onSubmit called");
     }
 }
