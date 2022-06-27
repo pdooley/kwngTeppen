@@ -2,7 +2,7 @@
   "app": {
     "sMode": "debug",
     "sRedirect": "http://www.itkunst.com",
-    "bAutoLogin": false
+    "bAutoLogin": true
   },
   "trace": {
     "bApp": false,
